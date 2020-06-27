@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cartoon Gallery</string>
+
+    <string-array name="bhooter_golpo">
+        
+    </string-array>
 </resources>
