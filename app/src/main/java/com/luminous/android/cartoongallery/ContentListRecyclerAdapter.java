@@ -1,6 +1,7 @@
 package com.luminous.android.cartoongallery;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,6 +56,16 @@ public class ContentListRecyclerAdapter extends RecyclerView.Adapter<ContentList
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             contentThumbnail = itemView.findViewById(R.id.listThumbnail);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent youtubePlayerIntent = new Intent(context, YoutubePlayer.class);
+                    YoutubePlayer.youtubeVideoId = contentLinksList.get(currentPosition);
+
+                    context.startActivity(youtubePlayerIntent);
+                }
+            });
         }
     }
 }
