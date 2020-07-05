@@ -5,13 +5,17 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.os.Debug;
+import android.text.LoginFilter;
+import android.util.Log;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class ContentList extends AppCompatActivity {
     public static int position;
-    List<List<String>> cartoonLists;
+    List<List<String>> cartoonLists = new ArrayList<List<String>>();
 
 
     @Override
@@ -19,18 +23,23 @@ public class ContentList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_list);
 
-        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
+//        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
 //        cartoonLists.add(bhootList);
-
-//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
-//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
-//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
-//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
-
-//        final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.contentListRecyclerView);
-//        contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-//        final ContentListRecyclerAdapter contentListRecyclerAdapter = new ContentListRecyclerAdapter(this, cartoonLists.get(position));
-//        contentListRecyclerView.setAdapter(contentListRecyclerAdapter);
+        
+        try {
+            Log.d("0", "Before list added");
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
+            Log.d("1", "list added successfully");
+            final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.contentListRecyclerView);
+            contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+            Log.d("2", "after layout manager set");
+            final ContentListRecyclerAdapter contentListRecyclerAdapter = new ContentListRecyclerAdapter(this, cartoonLists.get(position));
+            contentListRecyclerView.setAdapter(contentListRecyclerAdapter);
+        } catch (NullPointerException e) {
+            Log.e("error","msg" + e);
+        }
     }
 }
