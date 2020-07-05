@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         categoryImageResources = Arrays.asList(categoryImageArray);
-        
+
         final RecyclerView categoryRecyclerView = (RecyclerView) findViewById(R.id.categoryRecyclerView);
         categoryRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
 

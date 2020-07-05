@@ -1,6 +1,8 @@
 package com.luminous.android.cartoongallery;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
@@ -24,6 +26,9 @@ public class ContentList extends AppCompatActivity {
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
+
+        final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.categoryRecyclerView);
+        contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
     }
