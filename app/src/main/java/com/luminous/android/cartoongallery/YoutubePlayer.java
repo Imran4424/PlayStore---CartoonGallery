@@ -28,9 +28,11 @@ public class YoutubePlayer extends AppCompatActivity {
                 youTubePlayer.loadVideo(youtubeVideoId, 0);
             }
         });
+
+        hideSystemUI();
     }
 
-     @Override
+    @Override
     public void onDestroy() {
         super.onDestroy();
         youTubePlayerView.release();
