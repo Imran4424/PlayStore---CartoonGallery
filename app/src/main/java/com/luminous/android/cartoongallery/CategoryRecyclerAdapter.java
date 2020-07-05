@@ -19,13 +19,11 @@ public class CategoryRecyclerAdapter extends RecyclerView.Adapter<CategoryRecycl
     private final Context context;
     private final LayoutInflater layoutInflater;
     private final List<Integer> categoryThumbnailResources;
-    private final List<List<String>> categoryLists;
 
-    public CategoryRecyclerAdapter(Context context, List<Integer> categoryThumbnailResources, List<List<String>> categoryLists) {
+    public CategoryRecyclerAdapter(Context context, List<Integer> categoryThumbnailResources) {
         this.context = context;
         layoutInflater = LayoutInflater.from(context);
         this.categoryThumbnailResources = categoryThumbnailResources;
-        this.categoryLists = categoryLists;
     }
 
     @NonNull
@@ -44,7 +42,7 @@ public class CategoryRecyclerAdapter extends RecyclerView.Adapter<CategoryRecycl
 
     @Override
     public int getItemCount() {
-        return categoryLists.size();
+        return categoryThumbnailResources.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
