@@ -10,8 +10,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-    List<List<String>> cartoonLists;
     private List<Integer> categoryImageResources;
     private Integer[] categoryImageArray = new Integer[] { R.drawable.bhoot,
             R.drawable.thakumar_jhuli,
@@ -24,16 +22,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         categoryImageResources = Arrays.asList(categoryImageArray);
-
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
-
+        
         final RecyclerView categoryRecyclerView = (RecyclerView) findViewById(R.id.categoryRecyclerView);
         categoryRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
 
-        final CategoryRecyclerAdapter categoryRecyclerAdapter = new CategoryRecyclerAdapter(this, categoryImageResources, cartoonLists);
+        final CategoryRecyclerAdapter categoryRecyclerAdapter = new CategoryRecyclerAdapter(this, categoryImageResources);
         categoryRecyclerView.setAdapter(categoryRecyclerAdapter);
     }
 }
