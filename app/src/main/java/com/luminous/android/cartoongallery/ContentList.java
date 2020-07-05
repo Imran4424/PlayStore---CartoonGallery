@@ -17,6 +17,9 @@ public class ContentList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_list);
 
+//        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
+//        cartoonLists.add(bhootList);
+
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
