@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class ContentList extends AppCompatActivity {
+    public static int position;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
