@@ -25,17 +25,19 @@ public class ContentList extends AppCompatActivity {
 
 //        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
 //        cartoonLists.add(bhootList);
-        
+
         try {
             Log.d("0", "Before list added");
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
+
             Log.d("1", "list added successfully");
+
             final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.contentListRecyclerView);
             contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-            Log.d("2", "after layout manager set");
+
             final ContentListRecyclerAdapter contentListRecyclerAdapter = new ContentListRecyclerAdapter(this, cartoonLists.get(position));
             contentListRecyclerView.setAdapter(contentListRecyclerAdapter);
         } catch (NullPointerException e) {
