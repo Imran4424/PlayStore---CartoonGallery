@@ -1,6 +1,7 @@
 package com.luminous.android.cartoongallery;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,6 +53,16 @@ public class CategoryRecyclerAdapter extends RecyclerView.Adapter<CategoryRecycl
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             categoryThumbnail = itemView.findViewById(R.id.categoryThumbnail);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent contentListIntent = new Intent(context, ContentList.class);
+                    ContentList.position = currentPosition;
+
+                    context.startActivity(contentListIntent);
+                }
+            });
         }
     }
 }
