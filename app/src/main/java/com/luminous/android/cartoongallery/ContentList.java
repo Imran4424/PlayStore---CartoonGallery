@@ -30,6 +30,7 @@ public class ContentList extends AppCompatActivity {
         final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.categoryRecyclerView);
         contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-
+        final ContentListRecyclerAdapter contentListRecyclerAdapter = new ContentListRecyclerAdapter(this, cartoonLists.get(position));
+        contentListRecyclerView.setAdapter(contentListRecyclerAdapter);
     }
 }
