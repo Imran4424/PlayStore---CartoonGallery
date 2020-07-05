@@ -22,6 +22,6 @@ public class ContentList extends AppCompatActivity {
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
 
-        
+
     }
 }

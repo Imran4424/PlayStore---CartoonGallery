@@ -24,10 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         categoryImageResources = Arrays.asList(categoryImageArray);
-
-//        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
-//        cartoonLists.add(bhootList);
-
+        
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
         cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
