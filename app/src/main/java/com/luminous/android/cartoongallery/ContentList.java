@@ -19,18 +19,18 @@ public class ContentList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_list);
 
-//        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
+        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
 //        cartoonLists.add(bhootList);
 
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
-        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
+//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
+//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
+//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
+//        cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
 
-        final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.categoryRecyclerView);
-        contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        final RecyclerView contentListRecyclerView = (RecyclerView) findViewById(R.id.contentListRecyclerView);
+//        contentListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        final ContentListRecyclerAdapter contentListRecyclerAdapter = new ContentListRecyclerAdapter(this, cartoonLists.get(position));
-        contentListRecyclerView.setAdapter(contentListRecyclerAdapter);
+//        final ContentListRecyclerAdapter contentListRecyclerAdapter = new ContentListRecyclerAdapter(this, cartoonLists.get(position));
+//        contentListRecyclerView.setAdapter(contentListRecyclerAdapter);
     }
 }
