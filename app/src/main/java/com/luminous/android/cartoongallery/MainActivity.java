@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.google.android.gms.ads.MobileAds;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MobileAds.initialize(this);
 
         categoryImageResources = Arrays.asList(categoryImageArray);
 
