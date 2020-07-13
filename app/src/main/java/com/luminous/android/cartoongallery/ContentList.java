@@ -23,6 +23,10 @@ public class ContentList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_list);
 
+        if(!MainActivity.interstitialAd.isLoaded()) {
+            MainActivity.loadInterstitialAd();
+        }
+
 //        List<String> bhootList = Arrays.asList(getResources().getStringArray(R.array.bhoot));
 //        cartoonLists.add(bhootList);
 

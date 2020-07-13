@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.gms.ads.AdListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
@@ -24,8 +25,20 @@ public class YoutubePlayer extends AppCompatActivity {
 
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
-            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                youTubePlayer.loadVideo(youtubeVideoId, 0);
+            public void onReady(@NonNull final YouTubePlayer youTubePlayer) {
+                if (MainActivity.interstitialAd.isLoaded()) {
+                    MainActivity.interstitialAd.setAdListener(new AdListener() {
+                        @Override
+                        public void onAdClosed() {
+                            youTubePlayer.loadVideo(youtubeVideoId, 0);
+                        }
+
+                    });
+                } else {
+                    youTubePlayer.loadVideo(youtubeVideoId, 0);
+                }
+
+                MainActivity.loadInterstitialAd();
             }
         });
 
