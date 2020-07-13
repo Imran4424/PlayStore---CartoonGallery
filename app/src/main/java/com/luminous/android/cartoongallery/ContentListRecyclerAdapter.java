@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -63,7 +64,20 @@ public class ContentListRecyclerAdapter extends RecyclerView.Adapter<ContentList
                     Intent youtubePlayerIntent = new Intent(context, YoutubePlayer.class);
                     YoutubePlayer.youtubeVideoId = contentLinksList.get(currentPosition);
 
-                    context.startActivity(youtubePlayerIntent);
+                    if (MainActivity.interstitialAd.isLoaded()) {
+                        MainActivity.interstitialAd.setAdListener(new AdListener() {
+                            @Override
+                            public void onAdClosed() {
+
+                            }
+
+                        });
+                    } else {
+                        context.startActivity(youtubePlayerIntent);
+                        MainActivity.loadInterstitialAd();
+                    }
+
+
                 }
             });
         }
