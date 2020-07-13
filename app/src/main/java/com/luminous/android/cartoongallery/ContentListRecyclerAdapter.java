@@ -61,14 +61,14 @@ public class ContentListRecyclerAdapter extends RecyclerView.Adapter<ContentList
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent youtubePlayerIntent = new Intent(context, YoutubePlayer.class);
+                    final Intent youtubePlayerIntent = new Intent(context, YoutubePlayer.class);
                     YoutubePlayer.youtubeVideoId = contentLinksList.get(currentPosition);
 
                     if (MainActivity.interstitialAd.isLoaded()) {
                         MainActivity.interstitialAd.setAdListener(new AdListener() {
                             @Override
                             public void onAdClosed() {
-
+                                context.startActivity(youtubePlayerIntent);
                             }
 
                         });
