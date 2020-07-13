@@ -26,8 +26,20 @@ public class YoutubePlayer extends AppCompatActivity {
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
             public void onReady(@NonNull final YouTubePlayer youTubePlayer) {
-                youTubePlayer.loadVideo(youtubeVideoId, 0);
-                MainActivity.loadInterstitialAd();
+                 if (MainActivity.interstitialAd.isLoaded()) {
+                     MainActivity.interstitialAd.show();
+
+                     MainActivity.interstitialAd.setAdListener(new AdListener() {
+                        @Override
+                        public void onAdClosed() {
+                            youTubePlayer.loadVideo(youtubeVideoId, 0);
+                        }
+                     });
+                 } else {
+                        youTubePlayer.loadVideo(youtubeVideoId, 0);
+                 }
+
+                 MainActivity.loadInterstitialAd();
             }
         });
 
