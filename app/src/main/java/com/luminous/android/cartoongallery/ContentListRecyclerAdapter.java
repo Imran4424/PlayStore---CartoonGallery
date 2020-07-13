@@ -2,6 +2,7 @@ package com.luminous.android.cartoongallery;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.gms.ads.AdListener;
 import com.squareup.picasso.Picasso;
 
+import java.security.acl.LastOwnerException;
 import java.util.List;
 
 /**
@@ -65,19 +67,22 @@ public class ContentListRecyclerAdapter extends RecyclerView.Adapter<ContentList
                     YoutubePlayer.youtubeVideoId = contentLinksList.get(currentPosition);
 
                     if (MainActivity.interstitialAd.isLoaded()) {
+                        Log.i("1", "Add loaded");
+                        MainActivity.interstitialAd.show();
+
                         MainActivity.interstitialAd.setAdListener(new AdListener() {
                             @Override
                             public void onAdClosed() {
                                 context.startActivity(youtubePlayerIntent);
+                                Log.i("2", "adclose");
                             }
 
                         });
                     } else {
+                        Log.i("3", "Ad not loaded");
                         context.startActivity(youtubePlayerIntent);
                         MainActivity.loadInterstitialAd();
                     }
-
-
                 }
             });
         }
