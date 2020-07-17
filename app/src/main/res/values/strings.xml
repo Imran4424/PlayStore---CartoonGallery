@@ -337,4 +337,45 @@
         <item>WTK7NRcM5wk</item>
 
     </string-array>
+
+    <string-array name="nul_boltu">
+        <!--Episode 1-->
+        <item>zlLFqG1cmmg</item>
+
+        <!--Episode 2-->
+        <item>XBIfYNGEMP0</item>
+
+        <!--Episode 3-->
+        <item>yXieSfMIgP0</item>
+
+        <!--Episode 4-->
+        <item>nQHlMATI6y4</item>
+
+        <!--Episode 5-->
+        <item>Y3jHZMvttGU</item>
+
+        <!--Episode 6-->
+        <item>7__vxv9UzCM</item>
+
+        <!--Episode 7-->
+        <item>dcpq2fQ9yoI</item>
+
+        <!--Episode 8-->
+        <item>_8cXjnG9iMg</item>
+
+        <!--Episode 9-->
+        <item>2ATXP8uFsSE</item>
+
+        <!--Episode 10-->
+        <item>cYMeSJ9wf9s</item>
+
+        <!--Episode 11-->
+        <item>cNqGJtbYuGY</item>
+
+        <!--Episode 12-->
+        <item>ib9nw6DB1sc</item>
+        
+        <!--Episode 13-->
+        <!--Episode 14-->
+    </string-array>
 </resources>
