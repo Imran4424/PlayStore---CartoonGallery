@@ -33,6 +33,8 @@ public class ContentList extends AppCompatActivity {
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.oggy)));
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.talking_tom)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.nul_boltu)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
 

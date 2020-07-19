@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.thakumar_jhuli,
             R.drawable.tuntuni,
             R.drawable.oggy,
+            R.drawable.talking_tom,
             R.drawable.nut_boltu,
             R.drawable.rupkotha};
 
