@@ -30,10 +30,10 @@ public class ContentList extends AppCompatActivity {
 
         try {
             Log.d("0", "Before list added");
-            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.nul_boltu)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.bhoot)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.thakumar_jhuli)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.tuntuni)));
+            cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.nul_boltu)));
             cartoonLists.add(Arrays.asList(getResources().getStringArray(R.array.rupkotha)));
 
             Log.d("1", "list added successfully");

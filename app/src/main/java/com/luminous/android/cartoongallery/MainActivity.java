@@ -16,10 +16,10 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     public static InterstitialAd interstitialAd;
     private List<Integer> categoryImageResources;
-    private Integer[] categoryImageArray = new Integer[] { R.drawable.nut_boltu,
-            R.drawable.bhoot,
+    private Integer[] categoryImageArray = new Integer[] { R.drawable.bhoot,
             R.drawable.thakumar_jhuli,
             R.drawable.tuntuni,
+            R.drawable.nut_boltu,
             R.drawable.rupkotha};
 
     @Override
