@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private Integer[] categoryImageArray = new Integer[] { R.drawable.bhoot,
             R.drawable.thakumar_jhuli,
             R.drawable.tuntuni,
-            R.drawable.nut_boltu,
             R.drawable.oggy,
+            R.drawable.nut_boltu,
             R.drawable.rupkotha};
 
     @Override
