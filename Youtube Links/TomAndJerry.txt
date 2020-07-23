@@ -1,7 +1,7 @@
 
 
 
-s1 1-1
+s1 e1
 corrupted
 
 s1 2-1
@@ -20,6 +20,16 @@ s1 3-2
 https://www.youtube.com/watch?v=RnLNGVQEAC4
 
 s1 3-3
+https://www.youtube.com/watch?v=Kb74gvaHE8I
+
+s1 4-1
+https://www.youtube.com/watch?v=1Wv_Y7bCIAE
+
+s1 4-2
+https://www.youtube.com/watch?v=9-nBrBNk_i8
+
+s2 4-3
+https://www.youtube.com/watch?v=NVC1vOCZuds
 
 
 
