@@ -7,8 +7,20 @@ corrupted
 s1 2-1
 https://www.youtube.com/watch?v=4kra-PGprAI
 
-1 - 1
-1 - 1
+s1 2-2
+https://www.youtube.com/watch?v=rSLf906Wlik
+
+s1 2-3
+https://www.youtube.com/watch?v=o2u7bpOV7m0
+
+s1 3-1
+https://www.youtube.com/watch?v=738MOfIJWJA
+
+s1 3-2
+https://www.youtube.com/watch?v=RnLNGVQEAC4
+
+s1 3-3
+
 
 
 
