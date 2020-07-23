@@ -39,8 +39,68 @@ https://www.youtube.com/watch?v=NFQjeq81-zw
 
 s1 5-3
 https://www.youtube.com/watch?v=uhiQJcelgCk
-s1 5-1
-s1 5-1
+
+s1 6-1
+https://www.youtube.com/watch?v=eDYbVB6Ye5Q
+
+s1 6-2
+https://www.youtube.com/watch?v=DMsCD2Pohno
+
+s1 6-3
+https://www.youtube.com/watch?v=3HzYDpKZj6c
+
+s1 7-1
+https://www.youtube.com/watch?v=vRFoXk8w6tA
+
+s1 7-2
+https://www.youtube.com/watch?v=_AEnfDqU1S0
+
+s1 7-3
+https://www.youtube.com/watch?v=lvrodvwlD9k
+
+s1 8-1
+https://www.youtube.com/watch?v=t246D8tN28Y
+
+s1 8-2
+https://www.youtube.com/watch?v=n5YHrfp22i8
+
+s1 8-3
+https://www.youtube.com/watch?v=4nb7LBTfgJo
+
+
+s1 9-1
+https://www.youtube.com/watch?v=uXFhqleGyrE
+
+s1 9-2
+https://www.youtube.com/watch?v=Epl3g2OK1U0
+
+s1 9-3
+https://www.youtube.com/watch?v=pQEEu0hj8sI
+
+s1 e10
+corrupted
+
+
+s1 11-1
+https://www.youtube.com/watch?v=prFjNSiXQAI
+
+s1 11-2
+https://www.youtube.com/watch?v=26VWKMntt1w
+
+s1 11-3
+https://www.youtube.com/watch?v=juz7MRx3jYQ
+
+s1 12-1
+https://www.youtube.com/watch?v=6n0Rhwi1PS4
+
+s1 12-2
+https://www.youtube.com/watch?v=pdAQkkUIBNE
+
+s1 12-3
+https://www.youtube.com/watch?v=wPQmgAgPILs
+
+
+s2 1-1
 
 
 
