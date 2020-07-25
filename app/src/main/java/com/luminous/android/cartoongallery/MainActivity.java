@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.talking_tom,
             R.drawable.doreamon,
             R.drawable.mr_bean,
+            R.drawable.tom_jerry,
             R.drawable.nut_boltu,
             R.drawable.rupkotha};
 
