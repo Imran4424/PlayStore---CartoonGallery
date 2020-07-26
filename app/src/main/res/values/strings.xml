@@ -1150,6 +1150,63 @@
 
     </string-array>
 
+    <string-array name="looney_tunes">
+        <!--Bugs' Chase in the Theatre-->
+        <item>MAXOm5jeA5o</item>
+
+        <!--Bugs the Pianist-->
+        <item>FzeFyKiPHZ8</item>
+
+        <!--The Conductor and The Fan Rabbit-->
+        <item>HO0eAt0J3eI</item>
+
+        <!--The Hare and Tortoise Re-Race-->
+        <item>kfLjhXA70Og</item>
+
+        <!--The Journey to Get Penguin Home-->
+        <item>Ki4uQV7XiRQ</item>
+
+        <!--Daffy Auditions For Porky-->
+        <item>o9nXVPSCFx4</item>
+
+        <!--Sylvester Tries To Get Through The Guard Dogs-->
+        <item>v10rfnMJbUQ</item>
+
+        <!--The Hillbilly Rabbit-->
+        <item>feDoeuWDCjc</item>
+
+        <!--Wet Cement-->
+        <item>WhJlaC710oY</item>
+
+        <!--NEW SERIES-->
+        <item>CuJ1xMVqY0I</item>
+
+        <!--Tunnel Vision-->
+        <item>zjOtnwEwMy0</item>
+
+        <!--Bugs the Granny-->
+        <item>-x7m5zSliGA</item>
+
+        <!--Pest Coaster-->
+        <item>i6AM7BJ_IpQ</item>
+
+        <!--The Different Ways To Catch Tweety-->
+        <item>nQ1hMkDo5KQ</item>
+
+        <!--Daffy Is Moving Out-->
+        <item>pB4si1DWJ5g</item>
+
+        <!--Clark Kent, Not Just a Reporter-->
+        <item>N-E4_UR6lS8</item>
+
+        <!--That's No Sign I'm Looney Tuney!-->
+        <item>XqVu-AT0cJI</item>
+
+        <!--Fourth Wall Breaking Bugs-->
+        <item>_Y5jeJqo6VU</item>
+
+    </string-array>
+
     <string-array name="nul_boltu">
         <!--Episode 1-->
         <item>HCjNJDNzw8Y</item>
