@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.doreamon,
             R.drawable.mr_bean,
             R.drawable.tom_jerry,
-            R.drawable.nut_boltu,
+            R.drawable.looney_tunes,
+//            R.drawable.nut_boltu,
             R.drawable.rupkotha};
 
     @Override
