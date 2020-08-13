@@ -26,6 +26,9 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
         youTubePlayerView = findViewById(R.id.youtube_player_view);
         youTubePlayerView.initialize(YOUTUBE_API_KEY, this);
 
+        if (!MainActivity.interstitialAd.isLoaded()) {
+            MainActivity.loadInterstitialAd();
+        }
 
         hideSystemUI();
     }
