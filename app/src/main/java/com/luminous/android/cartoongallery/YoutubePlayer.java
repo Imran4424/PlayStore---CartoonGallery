@@ -72,22 +72,20 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
         youTubePlayer.setShowFullscreenButton(false);
         youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
 
-        if (!wasRestored) {
-            if (MainActivity.interstitialAd.isLoaded()) {
-                     MainActivity.interstitialAd.show();
+        if (MainActivity.interstitialAd.isLoaded()) {
+            MainActivity.interstitialAd.show();
 
-                     MainActivity.interstitialAd.setAdListener(new AdListener() {
-                        @Override
-                        public void onAdClosed() {
-                            youTubePlayer.loadVideo(youtubeVideoId);
-                        }
-                     });
-                 } else {
-                        youTubePlayer.loadVideo(youtubeVideoId);
-                 }
-
-                 MainActivity.loadInterstitialAd();
+            MainActivity.interstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdClosed() {
+                    youTubePlayer.loadVideo(youtubeVideoId, 0);
+                }
+            });
+        } else {
+            youTubePlayer.loadVideo(youtubeVideoId, 0);
         }
+
+        MainActivity.loadInterstitialAd();
     }
 
     @Override
