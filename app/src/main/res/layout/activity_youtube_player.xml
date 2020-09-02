@@ -16,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:showFullScreenButton="false"
-        app:showYouTubeButton="true"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
