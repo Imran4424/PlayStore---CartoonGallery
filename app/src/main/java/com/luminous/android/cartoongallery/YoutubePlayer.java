@@ -73,12 +73,14 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
         youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
 
         if (MainActivity.interstitialAd.isLoaded()) {
+            youTubePlayer.cueVideo(youtubeVideoId);
+
             MainActivity.interstitialAd.show();
 
             MainActivity.interstitialAd.setAdListener(new AdListener() {
                 @Override
                 public void onAdClosed() {
-                    youTubePlayer.loadVideo(youtubeVideoId, 0);
+                    youTubePlayer.play();
                 }
             });
         } else {
