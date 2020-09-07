@@ -87,6 +87,9 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
             youTubePlayer.loadVideo(youtubeVideoId, 0);
         }
 
+        if (!youTubePlayer.isPlaying()) {
+            youTubePlayer.play();
+        }
         MainActivity.loadInterstitialAd();
     }
 
