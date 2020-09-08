@@ -619,7 +619,7 @@
         <item>Hat Troubles</item>
         <item>Be Serious!</item>
         <item>Makeover Madness</item>
-        <item>Who's the boss?!</item>
+        <item>"Who's the boss?!"</item>
         <item>Cookie War</item>
         <item>My Turn!</item>
         <item>Operation Opera</item>
@@ -634,7 +634,7 @@
         <item>Wake Up!</item>
         <item>Sticky Jellies</item>
         <item>What Should Angela Wear?</item>
-        <item>Hank’s Glasses</item>
+        <item>"Hank’s Glasses"</item>
         <item>Tangled in Space</item>
         <item>Piano Battle</item>
         <item>The Apple Up the Rock</item>
@@ -660,12 +660,12 @@
         <item>Crazy Smoothie Challenge</item>
         <item>Winter Princess Dance</item>
         <item>Master of Trash</item>
-        <item>Tom’s Yoga Fail</item>
+        <item>"Tom’s Yoga Fail"</item>
         <item>Hide and Seek Challenge</item>
         <item>Scary Magic Show</item>
         <item>Super Strong</item>
         <item>EXTREME Holiday Lights</item>
-        <item>Angela’s Broken Airplane</item>
+        <item>"Angela’s Broken Airplane"</item>
         <item>Mega Music Party</item>
         <item>Fleas, Everywhere!</item>
         <item>The Magic Berry</item>
@@ -877,8 +877,6 @@
     </string-array>
 
     <string-array name="doreamon">
-        <!--1-->
-        <item>M7x_D40n8M8</item>
 
         <!--2-->
         <item>OPqZ8vDKcJs</item>
@@ -904,11 +902,7 @@
         <!--9-->
         <item>lxFX07jM0QA</item>
 
-        <!--10-->
-        <item>jiiM7B5vCE0</item>
 
-        <!--11-->
-        <item>6zhuwRZXMFI</item>
 
         <!--12-->
         <item>XA3U-NQuv5I</item>
@@ -919,14 +913,12 @@
         <!--14-->
         <item>hCaZTb5kqxE</item>
 
-        <!--15-->
-        <item>pCO-747DPCI</item>
+
 
         <!--16-->
         <item>skhMoVIH6Fw</item>
 
-        <!--17-->
-        <item>4_jxcULe6Pk</item>
+
 
         <!--18-->
         <item>nRkzzb3DJzs</item>
