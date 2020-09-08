@@ -607,6 +607,75 @@
         <item>E2KWTgEckbk</item>
     </string-array>
 
+    <string-array name="talking_tom_titles">
+        <item>Red Alert</item>
+        <item>Whack-a-Mouse</item>
+        <item>Aerobics</item>
+        <item>Potions</item>
+        <item>Lights Out</item>
+        <item>Round 1</item>
+        <item>Cans</item>
+        <item>Flappy Tom</item>
+        <item>Hat Troubles</item>
+        <item>Be Serious!</item>
+        <item>Makeover Madness</item>
+        <item>"Who's the boss?!"</item>
+        <item>Cookie War</item>
+        <item>My Turn!</item>
+        <item>Operation Opera</item>
+        <item>Bubble for Bubble</item>
+        <item>The Art of Packing</item>
+        <item>Attack of the Bookworm</item>
+        <item>Super Suction</item>
+        <item>Hit the Road</item>
+        <item>Helping Hand</item>
+        <item>Power Pirates</item>
+        <item>Save me!</item>
+        <item>Wake Up!</item>
+        <item>Sticky Jellies</item>
+        <item>What Should Angela Wear?</item>
+        <item>"Hank’s Glasses"</item>
+        <item>Tangled in Space</item>
+        <item>Piano Battle</item>
+        <item>The Apple Up the Rock</item>
+        <item>Balloon Battle</item>
+        <item>The Last Cereal</item>
+        <item>The Final Sticker</item>
+        <item>Upside Down Prank</item>
+        <item>Unboxing Gifts</item>
+        <item>Toilet Trouble</item>
+        <item>Scary Movie</item>
+        <item>Monkey Business</item>
+        <item>Tiger Attack</item>
+        <item>Quiet, Please!</item>
+        <item>Stinky Dance Panic</item>
+        <item>Pearl Thieves</item>
+        <item>Football Freak</item>
+        <item>Super Birthday Cake!</item>
+        <item>Hit the Road… Again!</item>
+        <item>Toilet Rescue Patrol</item>
+        <item>Haunted House</item>
+        <item>SNOWBALL FIGHT</item>
+        <item>Bubble Fun</item>
+        <item>Crazy Smoothie Challenge</item>
+        <item>Winter Princess Dance</item>
+        <item>Master of Trash</item>
+        <item>"Tom’s Yoga Fail"</item>
+        <item>Hide and Seek Challenge</item>
+        <item>Scary Magic Show</item>
+        <item>Super Strong</item>
+        <item>EXTREME Holiday Lights</item>
+        <item>"Angela’s Broken Airplane"</item>
+        <item>Mega Music Party</item>
+        <item>Fleas, Everywhere!</item>
+        <item>The Magic Berry</item>
+        <item>Chef Tom vs. Chef Hank</item>
+        <item>Pets in Space</item>
+        <item>Invisible Tom</item>
+        <item>Treehouse Rescue Party</item>
+        <item>EPIC SPORTS SHORTS!</item>
+    </string-array>
+
     <string-array name="talking_tom">
         <!--Red Alert-->
         <item>QImasK_hv_k</item>
@@ -614,17 +683,11 @@
         <!--Whack-a-Mouse-->
         <item>qcv4D5fd5is</item>
 
-        <!--Master of Trash-->
-        <item>Mh4YhAzQxhA</item>
-
         <!--Aerobics-->
         <item>fupR-2YClWY</item>
 
         <!--Potions-->
         <item>ksQN0vzjXVY</item>
-
-        <!--Tom’s Yoga Fail -->
-        <item>tBGHvIZxz8Y</item>
 
         <!--Lights Out-->
         <item>Uouhp2Q_K_8</item>
@@ -632,17 +695,11 @@
         <!--Round 1-->
         <item>tBtbsEbZAXE</item>
 
-        <!--Hide and Seek Challenge-->
-        <item>K01QhiudIwE</item>
-
         <!--Cans-->
         <item>aZHbCwwJeug</item>
 
         <!--Flappy Tom-->
         <item>XNNhQOel14E</item>
-
-        <!--Scary Magic Show-->
-        <item>iOLOpHLqGqM</item>
 
         <!--Hat Troubles-->
         <item>1BICKLhggw4</item>
@@ -650,17 +707,11 @@
         <!--Be Serious!-->
         <item>IYM5pfJc-D8</item>
 
-        <!--Super Strong-->
-        <item>RRHzab-EW2w</item>
-
         <!--Makeover Madness-->
         <item>w75MHcZwJVU</item>
 
         <!--Who's the boss?!-->
         <item>Gltp0iSA-60</item>
-
-        <!--Winter Princess Dance-->
-        <item>y6pJJrZHBoQ</item>
 
         <!--Cookie War-->
         <item>vmFPUsGCYOc</item>
@@ -668,17 +719,11 @@
         <!--My Turn!-->
         <item>ykG-E1gE8pU</item>
 
-        <!--EXTREME Holiday Lights-->
-        <item>OAXDpUhiR2U</item>
-
         <!--Operation Opera-->
         <item>g0rdf4a_sKM</item>
 
         <!--Bubble for Bubble-->
         <item>oy3QVj3XnLk</item>
-
-        <!--Angela’s Broken Airplane-->
-        <item>tX_IpbN9luQ</item>
 
         <!--The Art of Packing-->
         <item>TX_CQcO2iTE</item>
@@ -686,17 +731,11 @@
         <!--Attack of the Bookworm-->
         <item>7OJudgDKUO4</item>
 
-        <!--Mega Music Party-->
-        <item>z0kaDTEVQ_Q</item>
-
         <!--Super Suction-->
         <item>hMnk4Mb1KxM</item>
 
         <!--Hit the Road-->
         <item>wzJOyEGALIY</item>
-
-        <!--Fleas, Fleas, Everywhere!-->
-        <item>G6qxkejpGdk</item>
 
         <!--Helping Hand-->
         <item>6ykVC5zg42E</item>
@@ -704,26 +743,17 @@
         <!--Power Pirates-->
         <item>eyk1mRyrE64</item>
 
-        <!--The Magic Berry-->
-        <item>0SDoPLYy5mY</item>
-
         <!--Save me!-->
         <item>a0g-7stdQRs</item>
 
         <!--Wake Up!-->
         <item>RaBQUm6aPHw</item>
 
-        <!--Chef Tom vs. Chef Hank-->
-        <item>ai5Tn3-q3-0</item>
-
         <!--Sticky Jellies-->
         <item>r3imjlr0RAE</item>
 
         <!--What Should Angela Wear?-->
         <item>W7f_fBf_bTk</item>
-
-        <!--Pets in Space-->
-        <item>DFnd-eKDmks</item>
 
         <!--Hank’s Glasses-->
         <item>9SCubLXijL0</item>
@@ -779,9 +809,6 @@
         <!--Super Birthday Cake!-->
         <item>HfYS3kyEE0w</item>
 
-        <!--EPIC SPORTS SHORTS! -->
-        <item>G4sRQB_vJjg</item>
-
         <!--Hit the Road… Again!-->
         <item>gYfHKzjcmwo</item>
 
@@ -800,11 +827,56 @@
         <!--Crazy Smoothie Challenge-->
         <item>l7BjpUse930</item>
 
+        <!--Winter Princess Dance-->
+        <item>y6pJJrZHBoQ</item>
+
+        <!--Master of Trash-->
+        <item>Mh4YhAzQxhA</item>
+
+        <!--Tom’s Yoga Fail -->
+        <item>tBGHvIZxz8Y</item>
+
+        <!--Hide and Seek Challenge-->
+        <item>K01QhiudIwE</item>
+
+        <!--Scary Magic Show-->
+        <item>iOLOpHLqGqM</item>
+
+        <!--Super Strong-->
+        <item>RRHzab-EW2w</item>
+
+        <!--EXTREME Holiday Lights-->
+        <item>OAXDpUhiR2U</item>
+
+        <!--Angela’s Broken Airplane-->
+        <item>tX_IpbN9luQ</item>
+
+        <!--Mega Music Party-->
+        <item>z0kaDTEVQ_Q</item>
+
+        <!--Fleas, Fleas, Everywhere!-->
+        <item>G6qxkejpGdk</item>
+
+        <!--The Magic Berry-->
+        <item>0SDoPLYy5mY</item>
+
+        <!--Chef Tom vs. Chef Hank-->
+        <item>ai5Tn3-q3-0</item>
+
+        <!--Pets in Space-->
+        <item>DFnd-eKDmks</item>
+
+        <!--Invisible Tom-->
+        <item>https://www.youtube.com/watch?v=ONlSxUVCfoU</item>
+
+        <!--Treehouse Rescue Party -->
+        <item>https://www.youtube.com/watch?v=9hPNOlVV-pI</item>
+
+        <!--EPIC SPORTS SHORTS! -->
+        <item>G4sRQB_vJjg</item>
     </string-array>
 
     <string-array name="doreamon">
-        <!--1-->
-        <item>M7x_D40n8M8</item>
 
         <!--2-->
         <item>OPqZ8vDKcJs</item>
@@ -830,11 +902,7 @@
         <!--9-->
         <item>lxFX07jM0QA</item>
 
-        <!--10-->
-        <item>jiiM7B5vCE0</item>
 
-        <!--11-->
-        <item>6zhuwRZXMFI</item>
 
         <!--12-->
         <item>XA3U-NQuv5I</item>
@@ -845,14 +913,12 @@
         <!--14-->
         <item>hCaZTb5kqxE</item>
 
-        <!--15-->
-        <item>pCO-747DPCI</item>
+
 
         <!--16-->
         <item>skhMoVIH6Fw</item>
 
-        <!--17-->
-        <item>4_jxcULe6Pk</item>
+
 
         <!--18-->
         <item>nRkzzb3DJzs</item>
