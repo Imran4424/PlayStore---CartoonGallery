@@ -614,17 +614,11 @@
         <!--Whack-a-Mouse-->
         <item>qcv4D5fd5is</item>
 
-        <!--Master of Trash-->
-        <item>Mh4YhAzQxhA</item>
-
         <!--Aerobics-->
         <item>fupR-2YClWY</item>
 
         <!--Potions-->
         <item>ksQN0vzjXVY</item>
-
-        <!--Tom’s Yoga Fail -->
-        <item>tBGHvIZxz8Y</item>
 
         <!--Lights Out-->
         <item>Uouhp2Q_K_8</item>
@@ -632,17 +626,11 @@
         <!--Round 1-->
         <item>tBtbsEbZAXE</item>
 
-        <!--Hide and Seek Challenge-->
-        <item>K01QhiudIwE</item>
-
         <!--Cans-->
         <item>aZHbCwwJeug</item>
 
         <!--Flappy Tom-->
         <item>XNNhQOel14E</item>
-
-        <!--Scary Magic Show-->
-        <item>iOLOpHLqGqM</item>
 
         <!--Hat Troubles-->
         <item>1BICKLhggw4</item>
@@ -650,17 +638,12 @@
         <!--Be Serious!-->
         <item>IYM5pfJc-D8</item>
 
-        <!--Super Strong-->
-        <item>RRHzab-EW2w</item>
-
         <!--Makeover Madness-->
         <item>w75MHcZwJVU</item>
 
         <!--Who's the boss?!-->
         <item>Gltp0iSA-60</item>
 
-        <!--Winter Princess Dance-->
-        <item>y6pJJrZHBoQ</item>
 
         <!--Cookie War-->
         <item>vmFPUsGCYOc</item>
@@ -800,6 +783,23 @@
         <!--Crazy Smoothie Challenge-->
         <item>l7BjpUse930</item>
 
+        <!--Winter Princess Dance-->
+        <item>y6pJJrZHBoQ</item>
+
+        <!--Master of Trash-->
+        <item>Mh4YhAzQxhA</item>
+
+        <!--Tom’s Yoga Fail -->
+        <item>tBGHvIZxz8Y</item>
+
+        <!--Hide and Seek Challenge-->
+        <item>K01QhiudIwE</item>
+
+        <!--Scary Magic Show-->
+        <item>iOLOpHLqGqM</item>
+
+         <!--Super Strong-->
+        <item>RRHzab-EW2w</item>
     </string-array>
 
     <string-array name="doreamon">
